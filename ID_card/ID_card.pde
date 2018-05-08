@@ -7,6 +7,8 @@
  */
 
 void setup() {
+  size(700, 500);
+  background(235, 190, 42);
 
 }
 
