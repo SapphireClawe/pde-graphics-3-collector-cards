@@ -36,6 +36,9 @@ void draw() {
     ellipse(1075, 325, 100, 100);
     ellipse(925, 475, 100, 100);
     ellipse(1075, 475, 100, 100);
+      stroke(0, 0, 0);
+      strokeWeight(1);
+        line(693, 400, 1307, 400);
   
  
   image(img, 50, 50, 300, 500);
