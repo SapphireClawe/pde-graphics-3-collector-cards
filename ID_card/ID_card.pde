@@ -16,6 +16,10 @@ void setup() {
 }
 
 void draw() {
+  stroke(105, 62, 3);
+  strokeWeight(7);
+  fill(227, 135, 7);
+  ellipse(1000, 400, 600, 600);
  
   image(img, 50, 50, 300, 500);
 
