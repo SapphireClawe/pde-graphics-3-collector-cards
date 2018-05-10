@@ -17,9 +17,16 @@ void setup() {
 
 void draw() {
   stroke(105, 62, 3);
-  strokeWeight(7);
+  strokeWeight(14);
   fill(227, 135, 7);
   ellipse(1000, 400, 600, 600);
+  
+  stroke(171, 90, 39);
+  strokeWeight(2);
+  fill(201, 105, 44);
+  ellipse(800, 500, 100, 100);
+  ellipse(1100, 600, 100, 100);
+  
  
   image(img, 50, 50, 300, 500);
 
