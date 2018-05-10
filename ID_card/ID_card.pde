@@ -24,8 +24,10 @@ void draw() {
   stroke(171, 90, 39);
   strokeWeight(2);
   fill(201, 105, 44);
-  ellipse(800, 500, 100, 100);
-  ellipse(1100, 600, 100, 100);
+    ellipse(800, 500, 100, 100);
+    ellipse(1100, 600, 100, 100);
+    ellipse(1200, 500, 100, 100);
+    ellipse(900, 600, 100, 100);
   
  
   image(img, 50, 50, 300, 500);
