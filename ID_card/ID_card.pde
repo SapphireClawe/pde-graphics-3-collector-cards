@@ -7,11 +7,13 @@ import com.lowagie.text.html.simpleparser.Img;
  *
  */
  PImage img;
+ PFont f;
 
 void setup() {
   size(1500, 800);
   background(235, 190, 42);
   img = loadImage("Jeremy-Fitzgerald.jpg");
+  f = createFont("Arial", 32, true);
 
 }
 
@@ -39,6 +41,12 @@ void draw() {
       stroke(0, 0, 0);
       strokeWeight(1);
         line(693, 400, 1307, 400);
+        line(1000, 93, 1000, 707);
+        
+  textFont(f);
+  fill(0);
+    textAlign(CENTER);
+    text("Jeremy Fitzgerald", 200, 600, 350);
   
  
   image(img, 50, 50, 300, 500);
