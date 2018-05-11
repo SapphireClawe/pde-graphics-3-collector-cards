@@ -8,12 +8,14 @@ import com.lowagie.text.html.simpleparser.Img;
  */
  PImage img;
  PFont f;
+ PFont g;
 
 void setup() {
   size(1500, 800);
   background(235, 190, 42);
   img = loadImage("Jeremy-Fitzgerald.jpg");
   f = createFont("Arial", 32, true);
+  g = createFont("Times New Roman", 72, true);
 
 }
 
@@ -46,8 +48,19 @@ void draw() {
   textFont(f);
   fill(0);
     textAlign(CENTER);
-    text("Jeremy Fitzgerald", 200, 600, 350);
+    text("Jeremy Fitzgerald", 200, 600);
   
+  textFont(g);
+  fill(9, 44, 237);
+    textAlign(LEFT);
+    text("AGE: 19", 850, 200);
+    text("POSITION: Security", 750, 300);
+    text("SHIFT: Night", 800, 400);
+    
+  textFont(f);
+  fill(0);
+    textAlign(LEFT);
+    text("Welcome to the Fazbear Family!", 100, 700);
  
   image(img, 50, 50, 300, 500);
 
